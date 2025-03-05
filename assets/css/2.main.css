@@ -278,14 +278,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 700;
   line-height: 1em;
-  margin: 0 0 1em 0; }
+  margin: 0 0 0 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none; }
 
 h1 {
-  font-size: 2.5em;
-  line-height: 1.25em; }
+  font-size: 1em;
+  line-height: 1em; }
 
 h2 {
   font-size: 1.75em;
@@ -357,7 +357,7 @@ section.special, article.special {
 header p {
   color: rgba(255, 255, 255, 0.5);
   position: relative;
-  margin: 0 0 1.5em 0; }
+  margin: 0 0 1em 0; }
 
 header h2 + p {
   font-size: 1.25em;
@@ -435,17 +435,17 @@ ul.icons {
   padding-left: 0; }
   ul.icons li {
     display: inline-block;
-    padding: 0 1em 0 0; }
+    padding: 0 0 0 0; }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon:before {
-      font-size: 1.25em; }
+      font-size: 1em; }
     ul.icons li a {
       color: inherit; }
 
 /* Form */
 form {
-  margin: 0 0 2em 0; }
+  margin: 0 0 1em 0; }
   form .message {
     text-decoration: none;
     -moz-transition: opacity 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
@@ -456,8 +456,8 @@ form {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    height: 2.75em;
-    line-height: 2.75em;
+    height: 2em;
+    line-height: 2em;
     opacity: 0; }
     form .message:before {
       -moz-osx-font-smoothing: grayscale;
@@ -490,9 +490,9 @@ form {
 label {
   color: #fff;
   display: block;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 700;
-  margin: 0 0 1em 0; }
+  margin: 0 0 0 0; }
 
 @-moz-keyframes focus {
   0% {

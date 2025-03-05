@@ -1,0 +1,66 @@
+#footer {
+		@include vendor('transition', 'opacity 0.5s ease-in-out');
+		bottom: 4em;
+		color: _palette(fg-light);
+		left: 1em;
+		opacity: 1.0;
+		position: absolute;
+
+		.icons {
+			margin: 0 0 (_size(element-margin) * 0.25) 0;
+		}
+
+		.copyright {
+			font-size: 1.0em;
+			list-style: none;
+			padding: 0;
+
+			li {
+				border-left: solid 1px _palette(border2);
+				display: inline-block;
+				line-height: 1em;
+				margin: 0 0 0 0.75em;
+				padding: 0 0 0 0.75em;
+
+				&:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+			}
+
+			a {
+				color: inherit;
+			}
+		}
+
+		&:hover {
+			opacity: 1;
+		}
+
+		> :last-child {
+			margin-bottom: 0;
+		}
+
+		@include breakpoint('<=xlarge') {
+			bottom: 1.0em;
+			left: 1.0em;
+		}
+
+		@include breakpoint('<=small') {
+			bottom: 1em;
+			left: 1em;
+		}
+
+		@include breakpoint('<=xxsmall') {
+			bottom: 1em;
+			left: 1em;
+		}
+
+		@include breakpoint('short') {
+			bottom: auto;
+			left: auto;
+			margin: (_size(element-margin) * 0.5) 0 0 0;
+			position: relative;
+		}
+	}
